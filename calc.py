@@ -2,7 +2,7 @@ import time
 from tkinter import *
 import tkinter as tk
 
-def test(a, d):
+def add(a, d):
     # check if a and d are numbers
     if isinstance(a, (int, float)) and isinstance(d, (int, float)):
         # add a and d together and return the result
@@ -21,7 +21,7 @@ try:
     num2 = float(num2)
 
     # Calculate the result
-    result = test(num1, num2)
+    result = add(num1, num2)
 
     num1 = int(num1)
     num2 = int(num2)
